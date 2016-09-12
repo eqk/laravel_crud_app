@@ -1,0 +1,18 @@
+{
+  "name": "erp-band",
+  "authors": [
+    "Ковжогин Роман <r.kovjogin@open-bs.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "bower": "*",
+    "AdminLTE": "admin-lte#^2.3.5",
+    "fancyBox": "^2.1.5"
+  },
+  "dependencies": {
+    "bootstrap-validator": "^0.11.5"
+  }
+}
