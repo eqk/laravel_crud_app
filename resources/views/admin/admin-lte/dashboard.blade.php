@@ -63,6 +63,7 @@
     <script src="{{ asset ('/bower/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') }}"></script>
 
     <script src="{{ asset ('/bower/AdminLTE/plugins/input-mask/jquery.inputmask.js') }}"></script>
+    <script src="{{ asset ('/bower/AdminLTE/plugins/input-mask/jquery.inputmask.regex.extensions.js') }}"></script>
     <script src="{{ asset ('/bower/AdminLTE/dist/js/app.min.js') }}" type="text/javascript"></script>
 
     <script src="{{ asset ('/bower/bootstrap-validator/js/validator.js') }}" type="text/javascript"></script>

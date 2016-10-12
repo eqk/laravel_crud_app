@@ -4,13 +4,13 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
-        "repositories": [ 
-            {
-                "url": "https://github.com/white-wolf-17/crud-generator.git",
-                "type": "git",
-                "reference":"master"
-            }
-        ],
+    "repositories": [ 
+        {
+            "url": "https://github.com/white-wolf-17/crud-generator.git",
+            "type": "git",
+            "reference":"master"
+        }
+    ],
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
@@ -23,7 +23,8 @@
         "symfony/css-selector": "3.1.*",
         "symfony/dom-crawler": "3.1.*",
         "barryvdh/laravel-ide-helper": "^2.2",
-        "juy/active-menu": "1.*"
+        "juy/active-menu": "1.*",
+        "appzcoder/crud-generator": "@dev"
     },
     "autoload": {
         "classmap": [

@@ -169,6 +169,8 @@ return [
         
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Juy\ActiveMenu\ServiceProvider::class,
+        Appzcoder\CrudGenerator\CrudGeneratorServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
         //
 
@@ -228,6 +230,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Active' => Juy\ActiveMenu\Facades\Active::class,
+        'Form'      => Collective\Html\FormFacade::class,
+        'HTML'      => Collective\Html\HtmlFacade::class,
 
     ],
 

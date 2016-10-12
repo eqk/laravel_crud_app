@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a42eda6d1a3575a320f1f15807c87493",
-    "content-hash": "d344de274b65bcde7a9ea24d19232a62",
+    "hash": "0e84ad010e8023409c0df49735dea693",
+    "content-hash": "4ad46e37429edf9ed7aceb4a60950eaa",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1913,6 +1913,46 @@
     ],
     "packages-dev": [
         {
+            "name": "appzcoder/crud-generator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/white-wolf-17/crud-generator.git",
+                "reference": "b83981003b94ea0f427a76c554ef398a5816fe76"
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Appzcoder\\CrudGenerator\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sohel Amin",
+                    "email": "sohelamincse@gmail.com",
+                    "homepage": "http://www.appzcoder.com"
+                }
+            ],
+            "description": "Laravel 5 CRUD Generator",
+            "keywords": [
+                "crud",
+                "crud generator",
+                "laravel",
+                "laravel crud generator"
+            ],
+            "time": "2016-08-02 07:05:09"
+        },
+        {
             "name": "barryvdh/laravel-ide-helper",
             "version": "v2.2.1",
             "source": {
@@ -3699,7 +3739,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "appzcoder/crud-generator": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

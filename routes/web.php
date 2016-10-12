@@ -17,8 +17,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['auth'] ], function()
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['auth'], 'as' => 'admin.'], function()
 {
-	Route::get('/', ['as' => 'admin.home', 'uses' => 'HomeController@index']);   
+	Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);  
+	Route::get('/crud/', ['as' => 'crud', 'uses' => 'HomeController@crud']);  
+	Route::resource('posts', 'PostsController');
     
 });

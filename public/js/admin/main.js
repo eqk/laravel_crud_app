@@ -1,1 +1,3 @@
-console.log('admin lte start');
+$('.date').datepicker({
+    language: 'ru'
+});
