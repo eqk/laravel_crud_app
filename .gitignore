@@ -1,6 +1,7 @@
 /node_modules
 /public/storage
-/vendor
+/vendor/*
+!/vendor/appzcoder
 /.idea
 Homestead.json
 Homestead.yaml
